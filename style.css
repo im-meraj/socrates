@@ -38,7 +38,7 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #a06952;
-    background-image: url(../task-6/assets/imgs/bg_socrates.webp);
+    background-image: url(./assets/imgs/bg_socrates.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -156,7 +156,7 @@ html, body {
     /* position: absolute; */
     width: 100%;
     height: 100%;
-    background-image: url(../task-6/assets/imgs/small_pic.webp);
+    background-image: url(./assets/imgs/small_pic.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
