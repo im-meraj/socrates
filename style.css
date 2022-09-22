@@ -1,0 +1,223 @@
+/* Libra Caslon Display */
+@font-face {
+    font-family: 'Libre Caslon Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Caslon Display'), url('https://fonts.cdnfonts.com/s/28359/LibreCaslonDisplay-Regular.woff') format('woff');
+}
+
+/* Crox */
+
+@font-face {
+    font-family: 'Crox';
+    font-style: normal;
+    font-weight: 270;
+    src: local('Crox'), url('https://fonts.cdnfonts.com/s/87814/Crox-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Crox';
+    font-style: italic;
+    font-weight: 1050;
+    src: local('Crox'), url('https://fonts.cdnfonts.com/s/87814/Crox-Poster-Italic.woff') format('woff');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #a06952;
+    background-image: url(../task-6/assets/imgs/bg_socrates.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main h1 {
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-family: 'Libre Caslon Display', serif;
+    /* font-family: 'Patrician' serif; */
+    font-size: 18vw;
+    font-weight: 400;
+    color: #d4d0bd;
+    line-height: 1;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 2vw;
+}
+
+#navbar #logo {
+    width: 2vw;
+    height: 9vh;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#navbar a {
+    font-family: 'Crox', sans-serif;
+    font-size: 0.8vw;
+    font-weight: 700;
+    color: #d4d0bd;
+    text-decoration: none;
+    line-height: 1;
+}
+
+#hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* gap: 2.5vh; */
+    width: calc(100% / 3);
+}
+
+#left__text #text {
+    width: 56%;
+    height: 100%;
+    font-family: 'Crox', sans-serif;
+    font-size: 0.75vw;
+    font-weight: 700;
+    color: #d4d0bd;
+    line-height: 2;
+}
+
+#left__text #arrow i {
+    font-size: 8vw;
+    color: #d4d0bd;
+}
+
+#date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-left: 8vw;
+    padding-bottom: 10vh;
+    /* background-color: #fff; */
+}
+
+#date h5 {
+    font-family: 'Crox', sans-serif;
+    font-size: 0.7vw;
+    font-weight: 700;
+    color: #d4d0bd;
+    line-height: 1;
+    letter-spacing: 0.5vw;
+}
+
+#right__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% / 3);
+    height: 60vh;
+    padding-left: 4vw;
+    padding-right: 8vw;
+    /* background-color: #fff; */
+
+}
+
+#right__section #rtop {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    /* background-color: pink; */
+}
+
+#rtop #small__image {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-image: url(../task-6/assets/imgs/small_pic.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#info {
+    margin-bottom: 4vh;
+}
+
+#info h4 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+    color: #d4d0bd;
+    margin-bottom: 2vh;
+}
+
+#info p {
+    font-family: 'Crox', serif;
+    font-size: 0.7vw;
+    font-weight: 700;
+    color: #d4d0bd;
+}
+
+#right__section #rbottom {
+    width: 100%;
+}
+
+#right__section #rbottom h3 {
+    font-family: 'Crox', serif;
+    font-size: 2vw;
+    font-weight: 700;
+    color: #d4d0bd;
+    text-decoration: underline;
+}
+
+#right__section #rbottom h3:nth-child(1) {
+    margin-bottom: 2vh;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footer a {
+    font-family: 'Crox', sans-serif;
+    font-size: 0.8vw;
+    font-weight: 700;
+    color: #d4d0bd;
+    text-decoration: none;
+    line-height: 1;
+}
+
+#footer #social {
+    display: flex;
+    justify-content: space-between;
+    width: 11vw;
+}
